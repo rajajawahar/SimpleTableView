@@ -13,6 +13,10 @@
 		3550F77C1D94FFF000B01C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3550F77B1D94FFF000B01C52 /* Assets.xcassets */; };
 		3550F77F1D94FFF000B01C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550F77D1D94FFF000B01C52 /* LaunchScreen.storyboard */; };
 		3550F78A1D94FFF000B01C52 /* SimpleListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550F7891D94FFF000B01C52 /* SimpleListViewTests.swift */; };
+		3550F7951D95012D00B01C52 /* MobileTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550F7941D95012D00B01C52 /* MobileTestTableViewCell.swift */; };
+		3550F7971D95028A00B01C52 /* OsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550F7961D95028A00B01C52 /* OsTableViewController.swift */; };
+		3550F7991D9509A400B01C52 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550F7981D9509A400B01C52 /* OS.swift */; };
+		3550F79A1D9509A400B01C52 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550F7981D9509A400B01C52 /* OS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 		3550F7851D94FFF000B01C52 /* SimpleListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550F7891D94FFF000B01C52 /* SimpleListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListViewTests.swift; sourceTree = "<group>"; };
 		3550F78B1D94FFF000B01C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3550F7941D95012D00B01C52 /* MobileTestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileTestTableViewCell.swift; sourceTree = "<group>"; };
+		3550F7961D95028A00B01C52 /* OsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OsTableViewController.swift; sourceTree = "<group>"; };
+		3550F7981D9509A400B01C52 /* OS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,9 @@
 				3550F77B1D94FFF000B01C52 /* Assets.xcassets */,
 				3550F77D1D94FFF000B01C52 /* LaunchScreen.storyboard */,
 				3550F7801D94FFF000B01C52 /* Info.plist */,
+				3550F7941D95012D00B01C52 /* MobileTestTableViewCell.swift */,
+				3550F7961D95028A00B01C52 /* OsTableViewController.swift */,
+				3550F7981D9509A400B01C52 /* OS.swift */,
 			);
 			path = SimpleListView;
 			sourceTree = "<group>";
@@ -197,8 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3550F7951D95012D00B01C52 /* MobileTestTableViewCell.swift in Sources */,
 				3550F7771D94FFF000B01C52 /* ViewController.swift in Sources */,
 				3550F7751D94FFF000B01C52 /* AppDelegate.swift in Sources */,
+				3550F7991D9509A400B01C52 /* OS.swift in Sources */,
+				3550F7971D95028A00B01C52 /* OsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3550F78A1D94FFF000B01C52 /* SimpleListViewTests.swift in Sources */,
+				3550F79A1D9509A400B01C52 /* OS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
